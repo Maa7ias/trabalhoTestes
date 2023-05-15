@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="shortcut icon" href="../imagens/Asas da Liberdade.png" type="image/x-icon">
+    <style>
+        .botão:hover {cursor: pointer;}
+        label {text-align: left;}
+    </style>
+</head>
+<body>
+    <header style=" background-color: rgb(49, 82, 110); width: 100%; height: 220px; position: relative;">
+        <div>
+            <img src="../imagens/Asas da Liberdade.png" alt="Logo" style="float: left; margin-top: 22px; margin-left: 20px;" width="170px" height="170px">
+        </div>
+
+        <div style="color: white; transform: translate(-50%); text-align: center; position: absolute; left: 50%; padding-top: 25px;">            
+            <h1>Página do Matias</h1> <br>
+            <h2>Formulário de Contato</h2> <br>
+        </div>
+    </header> 
+
+    <nav style="background-color: rgb(170, 192, 212); height: 50px; position: relative;">
+        <div class="column" style="transform: translate(-50%); padding-top: 14px; position: absolute; left: 25%;">
+            <a href="../html/Index.html">Página Principal</a>
+        </div>
+        
+        <div class="column" style=" transform: translate(-50%); padding-top: 14px; position: absolute; left: 50%;">
+            <a href="../html/Pagina2.html">Quem Sou?</a>
+        </div>
+
+        <div class="column" style=" transform: translate(-50%); padding-top: 14px; position: absolute; left: 75%;">
+            <a href="../html/Pagina3.html" style="color: rgb(61, 90, 253);">Contato</a>
+        </div>
+    </nav>
+
+    <section style="padding: 20px; position: relative; text-align: center;">
+        <fieldset style="padding: 20px; width: 300px; height: min-content; transform: translate(-50%); position: relative; left: 50%;">
+            <div>
+                <label for="nome" style="display: inline-block; width: 60px;">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <p> </p>
+            <div>
+                <label for="email" style="display: inline-block; width: 60px;">E-mail:</label>
+                <input type="email" id="email">
+            </div>
+            <p> </p>
+            <div>
+                <label for="tel" style="display: inline-block; width: 60px;">Telefone:</label>
+                <input type="tel" id="tel" placeholder="(DDD) XXXXX-XXXX">
+            </div>
+            <p> </p>
+            <div>
+                <label for="cidade" style="display: inline-block; width: 60px;">Cidade:</label>
+                <input type="text" id="cidade">
+            </div>
+            <p> </p>
+            <div>
+                <label for="estado" style="display: inline-block; width: 60px;">Estado:</label>
+                <select name="" id="estado" style="width: 175px;">
+                    <option value="">Acre</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Amazonas</option>
+                    <option value="" selected>Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Distrito Federal</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Goiás</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Roraima</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
+            </div>
+            <p> </p>
+            <div>
+                <label for="idade" style="display: inline-block; width: 60px;">Idade:</label>
+                <input type="number" id="idade">
+            </div>
+            <p> </p>
+            <div>
+                <label for="sexo" style="display: inline-block; width: 55px;">Sexo:</label>
+                <input type="radio" name="sexo" id="sexo"> <label for="sexo" >Masculino</label>
+                <input type="radio" name="sexo" id="sexo"> <label for="sexo">Feminino</label>
+            </div>
+            <p> </p>
+             <div>
+                <label for="motivo">Motivo do Contato:</label>
+                <br>
+                <textarea name="" id="motivo" cols="30" rows="10"></textarea>
+             </div>
+             <p> </p>
+             <p> </p>
+             <div style="text-align: center;">
+                <input class="botão" type="submit" value="Enviar">
+                <input class="botão" type="reset" value="Limpar">
+             </div>
+        </fieldset>
+    </section>
+
+    <footer  style="background-color: rgb(31, 57, 80); position: relative; width: 100%; height: min-content; ">
+        <div style="color: white; padding: 20px; text-align: center;">
+            <p>Desenvolvido por Matias na disciplina de Desenvolvimento de Aplicações 
+                para Internet - 25/03/2023</p>
+        </div>
+    </footer>
+</body>
+</html>
